@@ -5,4 +5,8 @@
 #    path: /
 #    defaults: { _controller: 'App\Controller\DefaultController::index' }
 
+article:
+  path: /article/
+  controller: App\Controller/articleController::index
+
 
